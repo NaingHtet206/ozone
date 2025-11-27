@@ -1,0 +1,126 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.Login-form{
+    max-width: 320px;
+    width: 100%;
+    padding: 50px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px black;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.form-heading{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.input-group{
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.input-group .label {
+    position: absolute;
+    top: -18px;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 550;
+    transition: all 0.5s ease;
+    opacity: 0.7;
+
+}
+
+
+.input-group input{
+    width: 250px;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: black;
+    background-color:white;
+    border: 2px solid #ddd;
+    border-radius: 13px;
+    outline: none;
+    transition: all 0.5s ease;
+}
+
+.input-group input:focus{
+    border-color: aqua;
+    box-shadow: 0 0 10px blue;
+}
+
+.input-group input:focus + .label{
+    top: -20px;
+    font-size: 11px;
+    color: aqua;
+    opacity: 1;
+}
+
+.forget-password{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forget-password a{
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forget-password a:hover{
+    color: red;
+}
+
+.submit{
+    width: 100%;
+    padding: 12px;
+    background-color: #33bb33;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit:hover{
+    background-color: black;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px blue;
+}
+
+
+.signup-link{
+    margin-top: 30pxs;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+
+}
+
+.signup-link a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+
+}
+
+.signup-link a:hover{
+    color: red;
+
+}
+

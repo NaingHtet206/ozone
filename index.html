@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign In Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form class="Login-form" action="https://691fd36831e684d7bfcacbba.mockapi.io/add_data" method="post">
+            <div class="form-heading">Login</div>
+            <div class="input-group">
+                <label class="label" for="email">Email</label>
+                <input type="email" name="email" placeholder="Enter you Email" required />
+                
+            </div>
+            <div class="input-group">
+                <label class="label" for="password">Passcode</label>
+                <input type="password" name="password" placeholder="Enter you Passcode" required minlength="8" maxlength="15"/>
+            </div>
+
+            <div class="forget-password">
+                <a href="#">Forget Passcode</a>
+            </div>
+
+            <button class="submit" type="submit" target="_blank">Login</button>
+
+            <div class="signup-link" >Don't have an account?
+                <a href="#">Sign Up</a>
+            </div>
+
+
+        </form>
+    </body>
+</html>
